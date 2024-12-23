@@ -40,7 +40,7 @@ export default function Page() {
             background: "gray",
             borderRadius: 8,
             opacity: 0.5,
-            onStart: () => console.log('the spring has started'),
+            
           }}
         />
 
@@ -117,7 +117,7 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                 dates={project.dates}
+                  dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
